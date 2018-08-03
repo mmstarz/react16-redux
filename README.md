@@ -10,7 +10,7 @@
   
    * const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
-#* separate files for:
+# * separate files for:
 
    * actionTypes,
    * counter (increment, decrement, add, subtract) as actionCreators,
