@@ -1,7 +1,7 @@
 # example of using 'react-redux', 'redux', redux-thunk.
-# link: https://mmstarz.github.io/react16-redux/
-# watch console or/and redux-extension to see how it works.
-# * features used:
+## link: https://mmstarz.github.io/react16-redux/
+## watch console or/and redux-extension to see how it works.
+## * features used:
   
    * import { createStore, combineReducers, applyMiddleware, compose } from 'redux';
    * import { Provider } from 'react-redux';
@@ -10,7 +10,7 @@
   
    * const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
-# * separate files for:
+## * separate files for:
 
    * actionTypes,
    * counter (increment, decrement, add, subtract) as actionCreators,
