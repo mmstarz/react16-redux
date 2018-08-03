@@ -3,10 +3,10 @@
 # watch console or/and redux-extension to see how it works.
 # features used:
   
-  *import { createStore, combineReducers, applyMiddleware, compose } from 'redux';
-  *import { Provider } from 'react-redux';
-  *import { connect } from 'react-redux';
-  *import thunk from 'redux-thunk';
+  import { createStore, combineReducers, applyMiddleware, compose } from 'redux'.
+  import { Provider } from 'react-redux'.
+  import { connect } from 'react-redux'.
+  import thunk from 'redux-thunk'.
   
   const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
